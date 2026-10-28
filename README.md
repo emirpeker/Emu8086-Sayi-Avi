@@ -43,13 +43,14 @@ The code is written as a `.COM`-style 8086 program (`org 100h`) and uses BIOS se
 - **Randomization:** BIOS `INT 1Ah` clock data to generate new values after collection.
 - **Game state:** Assembly variables and arrays for player position, moving numbers, speed, score, timer, and round progression.
 
+
 ## Repository Files
 
 | File | Description |
 | --- | --- |
-| `emu_sayi_avi.asm` | Complete Assembly source code |
-| `Emir-Peker-Sayi-Avi.pptx` | Project presentation |
-| `EmirPeker_171424020.docx` | Project documentation |
+| `emu_sayi_avi.asm` | Complete 8086 Assembly source code |
+| `README.md` | Project documentation and setup instructions |
+
 
 ## Limitations
 
